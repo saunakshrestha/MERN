@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.author {
+  background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  padding: 200px;
+  padding-top: 100px;
+  font-size: 1.2rem;
+  color: rgb(18, 13, 87);
+}
+.profileImg img {
+  width: 20%;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: lightblue;
+  }
+  .author {
+    width: 100%;
+    background-image: url('./bg.jpg');
+  }
+  .container {
+    padding: 30px;
+
+    padding-top: 50px;
+  }
+  .profileImg img {
+    width: 50%;
+  }
+}
