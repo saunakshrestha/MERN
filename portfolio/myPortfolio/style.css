@@ -16,15 +16,31 @@ body {
   padding: 200px;
   padding-top: 100px;
   font-size: 1.2rem;
-  color: rgb(18, 13, 87);
+  color: rgb(4, 0, 56);
 }
 .profileImg img {
   width: 20%;
 }
 
+.socials {
+  height: 10rem;
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 20px;
+  padding: 20px;
+}
+.socials li {
+  padding: 20px;
+}
+.fa-github {
+  color: black;
+}
+
 @media only screen and (max-width: 500px) {
   body {
-    background-color: lightblue;
   }
   .author {
     width: 100%;
