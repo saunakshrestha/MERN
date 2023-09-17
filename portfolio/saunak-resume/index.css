@@ -207,13 +207,23 @@ textarea {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  text-align: center;
 }
 .footer-home {
-  font-size: 3rem; /* icon not getting bigger*/
+  display: inline-flex;
+  font-size: 6rem; /* icon not getting bigger*/
 }
 .footer-home a {
   color: #700000;
   background: #ffffff;
   border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  text-decoration: none;
+  
+}
+i.bx.bx-chevrons-up{
+
+  font-size: 2rem;
 }
